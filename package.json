@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/devotox/model-base.git"
+    "url": "https://github.com/devotox/model-base"
   },
   "engines": {
     "node": ">= 6.0.0",
@@ -35,28 +35,28 @@
     "lodash": "4.17.4",
     "moment": "2.18.1",
     "sidekick": "1.12.2",
-    "validator": "7.0.0"
+    "validator": "9.0.0"
   },
   "devDependencies": {
-    "chai": "3.5.0",
-    "coveralls": "2.13.0",
-    "eslint-friendly-formatter": "2.0.7",
+    "chai": "4.1.2",
+    "coveralls": "3.0.0",
+    "eslint-friendly-formatter": "3.0.0",
     "gulp": "3.9.1",
     "gulp-checkstyle-jenkins-reporter": "2.1.0",
-    "gulp-eslint": "3.0.1",
-    "gulp-istanbul": "1.1.1",
+    "gulp-eslint": "4.0.0",
+    "gulp-istanbul": "1.1.2",
     "gulp-jshint": "2.0.4",
     "gulp-jsinspect": "2.0.0",
     "gulp-load-plugins": "1.5.0",
     "gulp-mocha": "3.0.1",
     "gulp-shell": "0.6.3",
     "gulp-watch": "4.3.11",
-    "jshint": "2.9.4",
+    "jshint": "2.9.5",
     "jshint-stylish": "2.2.1",
-    "mocha": "3.2.0",
-    "mocha-jenkins-reporter": "0.3.7",
-    "qunitjs": "2.3.1",
-    "run-sequence": "1.2.2"
+    "mocha": "4.0.0",
+    "mocha-jenkins-reporter": "0.3.9",
+    "qunitjs": "2.4.0",
+    "run-sequence": "2.2.0"
   },
   "keywords": [
     "Model",
