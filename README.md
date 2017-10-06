@@ -1,7 +1,7 @@
 # Model Base
 
 [![Build Status](https://travis-ci.org/devotox/model-base.svg)](http://travis-ci.org/devotox/model-base)
-[![Coverage Status](https://coveralls.io/repos/github/devotox/mber-cli-dropdown-list/badge.svg)](https://coveralls.io/github/devotox/mber-cli-dropdown-list)
+[![Coverage Status](https://coveralls.io/repos/github/devotox/ember-cli-dropdown-list/badge.svg)](https://coveralls.io/github/devotox/ember-cli-dropdown-list)
 [![NPM Version](https://badge.fury.io/js/model-base.svg)](http://badge.fury.io/js/model-base)
 [![NPM Downloads](https://img.shields.io/npm/dm/model-base.svg)](https://www.npmjs.org/package/model-base)
 [![Greenkeeper badge](https://badges.greenkeeper.io/devotox/model-base.svg)](https://greenkeeper.io/)
