@@ -33,7 +33,7 @@
   },
   "dependencies": {
     "lodash": "4.17.4",
-    "moment": "2.19.2",
+    "moment": "2.19.3",
     "sidekick": "1.12.2",
     "validator": "9.1.1"
   },
