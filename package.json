@@ -1,6 +1,6 @@
 {
   "name": "model-base",
-  "version": "1.2.5",
+  "version": "2.0.0",
   "description": "Model Utility Classes",
   "main": "index.js",
   "author": "Devonte Emokpae",
@@ -12,10 +12,6 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/devotox/model-base"
-  },
-  "engines": {
-    "node": ">= 6.0.0",
-    "npm": ">= 3.0.0"
   },
   "scripts": {
     "test": "gulp test",
@@ -32,7 +28,7 @@
     "postversion": "git push && git push --tags"
   },
   "dependencies": {
-    "lodash": "4.17.5",
+    "lodash": "4.17.10",
     "moment": "2.22.1",
     "sidekick": "1.12.2",
     "validator": "9.4.1"
@@ -48,16 +44,12 @@
     "gulp-jshint": "2.1.0",
     "gulp-jsinspect": "2.0.0",
     "gulp-load-plugins": "1.5.0",
-    "gulp-mocha": "5.0.0",
+    "gulp-mocha": "3.0.1",
     "gulp-shell": "0.6.5",
     "gulp-watch": "5.0.0",
     "jshint": "2.9.5",
     "jshint-stylish": "2.2.1",
-<<<<<<< HEAD
     "mocha": "5.1.1",
-=======
-    "mocha": "5.1.0",
->>>>>>> 65725a4fb89dfc26af0ea48525274a8258b34fd5
     "qunitjs": "2.4.1",
     "mocha-jenkins-reporter": "0.3.12",
     "run-sequence": "2.2.1"
