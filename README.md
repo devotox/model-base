@@ -10,7 +10,7 @@ Model Base Utility Classes
 
 Classes to  extend and help create useful data models with strict validation
 
-Run Tests with `npm test`
+Run Tests with `yarn test`
 
 ### Example
 
