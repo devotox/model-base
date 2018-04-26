@@ -6,7 +6,7 @@
 [![NPM Downloads](https://img.shields.io/npm/dm/model-base.svg)](https://www.npmjs.org/package/model-base)
 [![Greenkeeper badge](https://badges.greenkeeper.io/devotox/model-base.svg)](https://greenkeeper.io/)
 
-Model Base Utility Classes
+### Model Base Utility Classes
 
 Classes to  extend and help create useful data models with strict validation
 
