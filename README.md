@@ -1,18 +1,26 @@
-# Model Base
-
 [![Build Status](https://travis-ci.org/devotox/model-base.svg)](http://travis-ci.org/devotox/model-base)
-[![Coverage Status](https://coveralls.io/repos/github/devotox/ember-cli-dropdown-list/badge.svg)](https://coveralls.io/github/devotox/ember-cli-dropdown-list)
+[![Coverage Status](https://codecov.io/gh/devotox/model-base/branch/master/graph/badge.svg)](https://codecov.io/gh/devotox/model-base)
 [![NPM Version](https://badge.fury.io/js/model-base.svg)](http://badge.fury.io/js/model-base)
 [![NPM Downloads](https://img.shields.io/npm/dm/model-base.svg)](https://www.npmjs.org/package/model-base)
+[![Dependency Status](https://david-dm.org/poetic/model-base.svg)](https://david-dm.org/poetic/model-base)
+[![DevDependency Status](https://david-dm.org/poetic/model-base/dev-status.svg)](https://david-dm.org/poetic/model-base#info=devDependencies)
 [![Greenkeeper badge](https://badges.greenkeeper.io/devotox/model-base.svg)](https://greenkeeper.io/)
 
-### Model Base Utility Classes
+model-base
+==============================================================================
 
 Classes to  extend and help create useful data models with strict validation
 
-Run Tests with `yarn test`
+Installation
+------------------------------------------------------------------------------
 
-### Example
+```
+yarn add model-base
+```
+
+
+Usage
+------------------------------------------------------------------------------
 
 ```javascript
 # /api/models/analytics.js
@@ -120,3 +128,25 @@ return collection.validate().getValues(true);
 - alias - key for other model attribute that keeps the values the same
 	- it passes the value from the other attribute into this one
 
+
+Contributing
+------------------------------------------------------------------------------
+
+### Installation
+
+* `git clone <repository-url>`
+* `cd model-base`
+* `yarn install`
+
+### Linting
+
+* `yarn lint`
+
+### Running tests
+
+* `yarn test` – Runs the test suite on the current Node Version
+
+License
+------------------------------------------------------------------------------
+
+This project is licensed under the [MIT License](LICENSE.md).
