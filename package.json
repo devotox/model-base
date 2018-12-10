@@ -38,7 +38,7 @@
     "chai": "4.1.2",
     "coveralls": "3.0.2",
     "eslint-friendly-formatter": "4.0.1",
-    "gulp": "3.9.1",
+    "gulp": "4.0.0",
     "gulp-checkstyle-jenkins-reporter": "2.1.0",
     "gulp-eslint": "5.0.0",
     "gulp-istanbul": "1.1.3",
