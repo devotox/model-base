@@ -4,7 +4,9 @@ node_js:
 sudo: false
 dist: trusty
 env:
-  - CXX=g++-4.8
+  global:
+    JOBS: 1
+    secure: fOTO/HpUT0xsfml9iXuEL9qBu0NVErcig6CmrS1DFv7f4x9/mYQMNzLUv5b6VBPqGHeFNHiGaUUza3Ufc5KpL7DOu/1y6TFQlSoM6MRRdIXb+50MObvkJ4wXwYJH7Zrb4g8RTaBOY9uU5XQkm/E6GWWF3NiYFoVzCYPNSgAALko1caoEX2hoJNXJSd0T4G+gxtxc2g08RGunBPLqIyy2avMRN4yq0WDN2NbBrztM01FA5RoOLPyX0hhzyIZ+45z34wKvZtu7rj9h1KbFOZOVFJWpHDa0bXxhF63ldxPINe2QMOSsOD22Czk1+IKyC+88gtkvUq7pGUaJK6YdVDRcW9G/DMHVy/IE2aFabrPDVgzrmeCoVKzATzt8nMfIMTTu9Unoa5fdohpJ0NPhYnPfVAGfJ+2MPITgP+x2X6M5+KgHCBdaIgwBVnZE9DTb1L9c/Eh50zeHHbfv9L+NVlbQFzMWNj+kKWMj0qwh6JPpSFiKaOvTK6XP+NSUc7euAZgqK6lwqS07pvcql4qvzbeRWyn/GZuRHOGvfkUNuvLee8dMKfpF3s1VQ6blHHqKB8qH2ifxawiztWgUkYxK0GFTk//ZopLzP90bLl0JiGlg517tp5V9eBOK5ZlPwsSOhD+wta9gCssPjK4i2H2IwLox7AqXegigBMdqIbXz9LaFVAY=
 addons:
   apt:
     sources:
@@ -14,11 +16,6 @@ addons:
     - g++-4.8
 cache:
   yarn: true
-env:
-  global:
-    # See https://git.io/vdao3 for details.
-    JOBS: 1
-    secure: fOTO/HpUT0xsfml9iXuEL9qBu0NVErcig6CmrS1DFv7f4x9/mYQMNzLUv5b6VBPqGHeFNHiGaUUza3Ufc5KpL7DOu/1y6TFQlSoM6MRRdIXb+50MObvkJ4wXwYJH7Zrb4g8RTaBOY9uU5XQkm/E6GWWF3NiYFoVzCYPNSgAALko1caoEX2hoJNXJSd0T4G+gxtxc2g08RGunBPLqIyy2avMRN4yq0WDN2NbBrztM01FA5RoOLPyX0hhzyIZ+45z34wKvZtu7rj9h1KbFOZOVFJWpHDa0bXxhF63ldxPINe2QMOSsOD22Czk1+IKyC+88gtkvUq7pGUaJK6YdVDRcW9G/DMHVy/IE2aFabrPDVgzrmeCoVKzATzt8nMfIMTTu9Unoa5fdohpJ0NPhYnPfVAGfJ+2MPITgP+x2X6M5+KgHCBdaIgwBVnZE9DTb1L9c/Eh50zeHHbfv9L+NVlbQFzMWNj+kKWMj0qwh6JPpSFiKaOvTK6XP+NSUc7euAZgqK6lwqS07pvcql4qvzbeRWyn/GZuRHOGvfkUNuvLee8dMKfpF3s1VQ6blHHqKB8qH2ifxawiztWgUkYxK0GFTk//ZopLzP90bLl0JiGlg517tp5V9eBOK5ZlPwsSOhD+wta9gCssPjK4i2H2IwLox7AqXegigBMdqIbXz9LaFVAY=
 matrix:
   fast_finish: true
 before_install:
@@ -46,3 +43,12 @@ notifications:
   slack:
     rooms:
       secure: T8oTmpIg7H1PvTs8d0eQiAwKxMT/4AhPuulBo6AadFYt+1ZKCYTJzhATW6FLAP+cGKoAyU8XPxiz1AZicTDi7WoC6ZYAgjWFKrMTgY+/aUrSDvj0iaxnx19HceBSSp+KsXaOJ0EJOPrxvd0ntCL3TwYlKWvCWdWJvdJZRRNx3h5xq8nNNQPAuTnUU6zEk9WWsrSndOzRpGHSgdP1e61zLv67TCu8wR4erCl/Kx3kfA0WwgG53GnAdgOIH0Id75elsVdkg1niKYzjmTC9TAwh7L44t6RrtXbGOL2JXU2nGUv8JZ/CSt7BD7fdDSobbQ4FgBqRsBvBVE32MPy3Y19pcOB0ncEajwadnWg8xNCGrMzwLqTDrWK4UdaQsiW6tRMVOlDCYC4elbPGjKamFv9uV5wX9Ts1tIyrtsxtOiGq2Cv1c18FLoUU7PeELWkvSZka1rKTdYXqS0Z2Rz+5UhBSohv3TZYP4uhU63c+nttJBuh375H4nFXQVyFr+OpWYMq1XQ+S8z24jg9rHR/dAXWF+3OPh52YcU5TA0bPI+g+ZA5agNkVrPxRq56r9mExRBcfx3eqYbXU8z+VtBFbuf0dr3tTTIq0M6V0gef3IYiOTbRD/vf8HsOVy/tlMY9QPiOlkeWWozrFdgPTWaNW6a0IKZtFSGppLbeC3Ph2QTanEVE=
+deploy:
+  provider: npm
+  skip_cleanup: true
+  email: devo.tox.89@gmail.com
+  api_key:
+    secure: lGc6MI8HIosE/YyrK2BBoXx+eBx3zweUsfngyYJ2a7bS3E/8/p8glwS0r8dRODlwApOc/GJ3wCeC+ATVJBtRyX/is1lzyc4iu67aTsCcrAPAgA6tO3rLmP6/Leu52qNjbF6xTEkVETeZtIovZ9hgj/USLk/a1kxcl2E86b+30ktVcYWnM6Q1RYErhsTx85eIqEXf2o3G6AFQeZKT0RUwMoFoRVIwZ0MUktjKsIZi+EspZ8PfatvTNoD/p0sgvnfrOGhhIOdMQkdJpnwmb4J7zZ1pjAcym/hyWJ+5RWT+1aKNnEiUrfMijZQ5iC0CMxX/tkMdVhQcifzIwYlVReC8LktgWoN2irX1h7emcAIdCw/pP6WnpXn1EnyYB/4Qb62rhJXN5OKjhIwucMHTLJdTZoyxwN0LP4GiZb3kU9kAsEwknXNLcTfZeP5GrrkKJaecXlCOt9JOqGUKsAQZhWMy0HdI2yLaBy/c3lhz71oT+Lho++cGajXqKEFV1RSTF2RU0M2T5AaRzsEFQoHWF1W2GlrdB8G2QDH6PiDQbyowpQIq7oX2gpSTsFGA0PSakz5hGIVj3S4GZpPPmXshvL5/vyrIUzrezSXQ9szHpNUYPOSHS7eevWsY2SDuX1KgaITtlTZ3eDbpJ8C/CjLgnTpB4bUtB80/dcnA/wMkORifL90=
+  on:
+    tags: true
+    repo: devotox/model-base
