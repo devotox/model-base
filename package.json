@@ -27,7 +27,7 @@
     "release-minor": "npm version minor",
     "release-major": "npm version major",
     "postversion": "git push && git push --tags",
-    "update:packages": "npx ncu -u -a --removeRange && yarn install --force --check-files --update-checksums --ignore-engines && yarn upgrade --force --ignore-engines"
+    "update:packages": "npx ncu -u --removeRange && yarn install --force --check-files --update-checksums --ignore-engines && yarn upgrade --force --ignore-engines"
   },
   "dependencies": {
     "lodash": "4.17.11",
@@ -38,19 +38,19 @@
   "devDependencies": {
     "chai": "4.2.0",
     "eslint-friendly-formatter": "4.0.1",
-    "gulp": "3.9.x",
+    "gulp": "4.0.2",
     "gulp-checkstyle-jenkins-reporter": "2.1.0",
     "gulp-eslint": "5.0.0",
     "gulp-istanbul": "1.1.3",
     "gulp-jshint": "2.1.0",
     "gulp-jsinspect": "2.0.0",
     "gulp-load-plugins": "1.5.0",
-    "gulp-mocha": "3.x.x",
+    "gulp-mocha": "6.0.0",
     "gulp-shell": "0.7.0",
     "gulp-watch": "5.0.1",
     "jshint": "2.10.2",
     "jshint-stylish": "2.2.1",
-    "mocha": "6.0.2",
+    "mocha": "6.1.4",
     "mocha-jenkins-reporter": "0.4.1",
     "qunitjs": "2.4.1",
     "run-sequence": "2.2.1"

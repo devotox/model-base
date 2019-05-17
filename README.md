@@ -2,8 +2,8 @@
 [![Coverage Status](https://codecov.io/gh/devotox/model-base/branch/master/graph/badge.svg)](https://codecov.io/gh/devotox/model-base)
 [![NPM Version](https://badge.fury.io/js/model-base.svg)](http://badge.fury.io/js/model-base)
 [![NPM Downloads](https://img.shields.io/npm/dm/model-base.svg)](https://www.npmjs.org/package/model-base)
-[![Dependency Status](https://david-dm.org/poetic/model-base.svg)](https://david-dm.org/poetic/model-base)
-[![DevDependency Status](https://david-dm.org/poetic/model-base/dev-status.svg)](https://david-dm.org/poetic/model-base#info=devDependencies)
+[![Dependency Status](https://david-dm.org/devotox/model-base.svg)](https://david-dm.org/devotox/model-base)
+[![DevDependency Status](https://david-dm.org/devotox/model-base/dev-status.svg)](https://david-dm.org/devotox/model-base#info=devDependencies)
 [![Greenkeeper badge](https://badges.greenkeeper.io/devotox/model-base.svg)](https://greenkeeper.io/)
 
 model-base
