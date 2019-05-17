@@ -50,7 +50,11 @@
     "gulp-watch": "5.0.1",
     "jshint": "2.10.2",
     "jshint-stylish": "2.2.1",
+<<<<<<< HEAD
     "mocha": "6.1.4",
+=======
+    "mocha": "6.1.0",
+>>>>>>> 4664aa714292fce21180213556770cc662d5aaba
     "mocha-jenkins-reporter": "0.4.1",
     "qunitjs": "2.4.1",
     "run-sequence": "2.2.1"
